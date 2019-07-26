@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"classpath:created_features/pc_login.feature"},
-        glue = {"classpath:stepdefs"},
+        features = {"classpath:created_features/pc_create_account.feature"},
+        glue =     {"classpath:stepdef_create_account"},
         plugin = {"pretty"})
 public class RunCucumberTest {
 
